@@ -1,7 +1,7 @@
 class LemonGraph < Formula
     desc "Library for Efficient Modeling and Optimization in Networks"
     homepage "https://lemon.cs.elte.hu/trac/lemon"
-    sha256 "ff00cc1b7aafd8481bf8a1b13303de79ec4dec485e41c807f9e95f369b917d78"
+    sha256 "f829a87c357b193a97987293030cb086b8fc7ef000eac24899efd3b822f383d8"
     head "https://github.com/The-OpenROAD-Project/lemon-graph"
     url "https://github.com/The-OpenROAD-Project/lemon-graph/archive/refs/tags/1.3.1.tar.gz"
     version "1.3.1"
