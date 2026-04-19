@@ -10,7 +10,7 @@ class LemonGraph < Formula
     depends_on "cmake" => :build
 
     def install
-        system "cmake", "-B", "build", "-DLEMON_ENABLE_SOPLEX=FALSE", "-DCMAKE_INSTALL_PREFIX=#{prefix}", "."
+        system "cmake", "-B", "build", "-DLEMON_ENABLE_SOPLEX=FALSE", "-DCMAKE_INSTALL_PREFIX=#{prefix}", "-DCMAKE_POLICY_VERSION_MINIMUM=3.5","."
         system "cmake", "--build", "build", "-j", "--target", "install"
     end
 end
